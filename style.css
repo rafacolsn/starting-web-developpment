@@ -1,0 +1,81 @@
+body, h1, h2, h3, h4, p, ul, li {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+}
+body {
+    background-color: #EAEAEA;
+    color: #858588;
+    line-height: 1.5;
+}
+h1 {
+    color: #E04248;
+}
+h1, h2, h3 {
+    padding-bottom: 1.5em;
+}
+.center {
+    text-align: center;
+}
+
+.fond-blanc {
+    background-color: white;
+    margin: 3em auto;
+    width: 45%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2em 1em 1em;
+
+}
+.round img {
+    border-radius: 50%;
+    height: 7em;
+    border: 3px solid rgba(0, 0, 0, 0.19);
+}
+.btn {
+    margin: 1em auto;
+    width: 25%;
+    border-radius: 5px;
+    background-color: #E04248;
+    padding: 0.5em 0;
+
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+
+}
+.text {
+    padding-top: 2em;
+    text-align: justify;
+}
+.align {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.social a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #858588;
+}
+.social a:hover {
+    color: #E04248;
+}
+
+.film {
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+    padding-bottom: 2em;
+    align-items: flex-end;
+}
+.film p {
+    padding-left: 2em;
+}
+.image img {
+    max-height: 180px;
+}
